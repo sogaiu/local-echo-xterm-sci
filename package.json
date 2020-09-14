@@ -2,7 +2,6 @@
   "name": "@borkdude/local-echo-xterm-sci",
   "version": "0.2.0",
   "description": "A local echo controller for xterm.js",
-  "main": "./dist/local-echo.js",
   "scripts": {
     "test": "jest",
     "build": "webpack"
@@ -44,6 +43,8 @@
   "dependencies": {
     "shell-quote": "^1.6.1"
   },
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "prepublishOnly": "webpack --mode=production"
 }
