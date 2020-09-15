@@ -44,7 +44,8 @@
     "shell-quote": "^1.6.1"
   },
   "files": [
-    "dist"
+    "dist",
+    "lib"
   ],
   "prepublishOnly": "webpack --mode=production"
 }
