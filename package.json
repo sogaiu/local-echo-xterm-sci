@@ -45,7 +45,8 @@
   },
   "files": [
     "dist",
-    "lib"
+    "lib",
+    "index.js"
   ],
   "prepublishOnly": "webpack --mode=production"
 }
